@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NEON TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fredoka+One&family=Iceland&family=Nabla&family=Silkscreen&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header id="gameTitle">
+        <h1><u>Tic-Tac-Toe<u></u></h1>
+    </header>
+    <section class="nameDisplay">
+        <p id="displayP1" class="display">Player X:</p>
+        <p id="displayP2" class="display">Player O:</p>
+    </section>
+    <section id="playerTurn">
+        <h2 id="turnDisplay">Enter Player Names + Click Start Button</h2>
+    </section>
+    <main>
+        <section class="board">
+            <div id="0" class="boardBox"></div>
+            <div id="1" class="boardBox"></div>
+            <div id="2" class="boardBox"></div>
+            <div id="3" class="boardBox"></div>
+            <div id="4" class="boardBox"></div>
+            <div id="5" class="boardBox"></div>
+            <div id="6" class="boardBox"></div>
+            <div id="7" class="boardBox"></div>
+            <div id="8" class="boardBox"></div>
+        </section>
+        <p class="playerTurn">
+            <input id="p1Name" name="Player 1" placeholder="Enter Player X" />
+            <input id="p2Name" name="Player 2" placeholder="Enter Player O" />
+            <button class="startButton">Start Game</button>
+        </p>
+        <nav class="resetGame">
+            <button id="resetButton">RESET GAME</button>
+        </nav>
+    </main>
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
